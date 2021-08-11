@@ -20,15 +20,7 @@ export default function Nav({ state }) {
             <div>BEAUTY</div>
           </div>
         </nav>
-        <div className="my-auto  relative">
-          <input
-            type="text"
-            className="py-2 w-64 px-2  border rounded"
-            placeholder="SEARCH"
-            onChange={(e) => handlechnage(e, state)}
-          ></input>
-          {query.length > 0 && <Dropdown query={query} />}
-        </div>
+
         <Link href="/addproduct">
           <div className="flex ">
             <div className="cursor-pointer w-12 h-12 bg-logo-myntra bg-top-5 my-auto ml-12"></div>
