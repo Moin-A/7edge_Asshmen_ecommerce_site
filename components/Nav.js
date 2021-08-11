@@ -1,6 +1,5 @@
 import useform from "../lib/useForm";
-import useFocus from "./useFocus";
-import Dropdown from "./dropdown";
+
 import Link from "next/link";
 
 export default function Nav({ state }) {
